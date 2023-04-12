@@ -1,49 +1,62 @@
-* {
-    background-color: #ff7f50;
-  }
-  img {
-    width: 100%;
-    object-fit: cover;
-  }
-  h2, p {
-    font-family: 'Raleway', sans-serif;
-  }
-  a {
-    text-decoration: none;
-    color: linen;
-  }
-  #hero {
-    grid-column: 1 / -1;
-    position: relative;
-    text-align: center;
-  }
-  header {
-  justify-content: flex-end;
-  position: positioned;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: none;
+body {
+  background-color: #3a3240;
+  color: white;
+}
+main {
+  max-width: 750px;
+  margin: 50px auto;
+}
+input {
+  background-color: #92869c;
+}
+a:not(.nav-link) {
+  color: white;
+}
+#header-img {
+  max-height: 25px;
+}
+#nav-bar {
+  position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
-    padding: 1em;
-  
+  text-align: center;
+  top: 0%;
+  background-color: #92869c;
+}
+h1 {
+  text-align: center;
+}
+body {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+#bullet {
+  max-height: 25px;
+}
+.flex-here {
+  display: flex;
+  justify-content: center;
+}
+.flex-left {
+  height: 25px;
+}
+.flex-mem {
+  display: flex;
+  justify-content: center;
+}
+.flex-mem-box {
+  background-color: #92869c;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+}
+@media (max-width: 350px) {
+  #video {
+    width: 300;
+    height: 200;
   }
-  @media only screen and (max-width: 720px) {
-    .image-wrapper {
-      grid-template-columns: 1fr;
-    }
-    i {
-      color: yellow;
-    }
-    #submit {
-      background-color: yellow;
-    }
-    input {
-      font-weight: bold;
-      font-szie: 15;
-    }
-    .btn {
-      color: blue;
-      padding-top: 
-    }
+}
